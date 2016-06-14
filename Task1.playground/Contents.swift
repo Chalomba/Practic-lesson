@@ -62,10 +62,15 @@ let moto2 = Transport(vehicleType: .Moto, model: "Yava")
 let vehicles = [car1, bus1, moto1, car2, moto2]
 
 let parking = Parking(transports: vehicles)
-let licence = DriverLisence(licenceType: .Bus)
+let licence1 = DriverLisence(licenceType: .Bus)
+let licence2 = DriverLisence(licenceType: .Car)
+let licence3 = DriverLisence(licenceType: .Moto)
 
-let driver1 = Driver (name: "Vasya", licence: )
-let driver2 = Driver (name: "Misha", licence: <#T##DriverLisence?#>)
-let driver3 = Driver (name: "Misha", licence: <#T##DriverLisence?#>)
-let driver4 = Driver (name: "Anton", licence: <#T##DriverLisence?#>)
+
+
+
+let driver1 = Driver (name: "Vasya", licence: licence1)
+let driver2 = Driver (name: "Misha", licence: licence2)
+let driver3 = Driver (name: "Misha", licence: licence3)
+let driver4 = Driver (name: "Anton", licence: nil )
 
